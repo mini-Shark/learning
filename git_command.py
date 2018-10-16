@@ -13,4 +13,13 @@ git diff HEAD -- readme.txt : check the difference between working directory and
 git checkout -- file.name : discard modify at working directory, actuall it's use repository version to replace working directory version 
 git reset HEAD file.name : discard modify at stage and put it back to working directory 
 git rm file.name : delete file in repository 
+how to push our local repository to remote github server ?
+1. generate a SSH key 
+2. add this key at my github account 
+3. create a new repo in my github account 
+4. connect local repo and remote repo as "git remote add origin git@github.com:mini-Shark/learning.git"
+   In this command, "origin" is remote repo name 
+5. push all content to remote repo, like this "git push -u origin master"
+
+notes : we both have master branch at local and remote 
 '''
