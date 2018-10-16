@@ -22,4 +22,8 @@ how to push our local repository to remote github server ?
 5. push all content to remote repo, like this "git push -u origin master"
 git clone git@github.com:mini-Shark/gitskills.git : clone a remote repo at current PWD
 notes : we both have master branch at local and remote 
+git checkout -b dev : create "dev" branch and switch it to "dev" branch
+git branch dev : create "dev" branch
+git checkout dev : switch to "dev" branch 
+
 '''
