@@ -29,3 +29,4 @@ git merge dev : merge branch "dev" to current branch
 git log --graph  : use graph to display commit history 
 git merge --no-ff -m "merge with no-ff" dev : abort "Fast Forward" merge mode, that can have merge flag at our commit history
 '''
+fuck
